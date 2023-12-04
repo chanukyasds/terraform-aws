@@ -1,0 +1,16 @@
+
+
+variable "my_ssh_keys" {
+
+    type = list(string)
+    default =[
+        "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCqJ4MoBNSDLHdK4II8fOKHJYcbFkHHFn9utd9JUxay7jXAFBjkJSBM9uUgO4vAo2fDyYjV0yX5P1gGu3LTbV3pNUhYEhbUWbSjMiSZP3Pa+cTTzJY9ne53h9uP5yqXua7nq/a9bUoYmkq2fnvc3jtloA9Pua6csWC2HB3UAH7ZMJNQiWN0r0t2LBE1ecP99RS0drLquLgLt3MK8MTihGmRziL7szEFIRotcY4dBVyQV7PJ9/gpvCb7KmcvnCAsGQiIYqYtWwX3WHL3JO0RusrepafaJWE/wDQZ5MENGF88rwW+jOFJzBKEarUb+EbjAg1RTL3SrwHM/eMyzn/TSlzqZARZV5Slnew3cJU/SuXUK39i2cVGjWPRTvoZmQc9KD7/2H+FS/ynsAv1uI9DTF+/Kiyk5VYnd3hSvWUWQKRWByYtrVnb1pyiVRbKcegJKd99v7Idb/c7vVid3w3Mpz7NTPYGqrHnCoIi/H0cZvlm7vcHKffPgpj9KRs/EfLLS20= chanukyasds@ThinkpadX1",
+        "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCqJ4MoBNSDLHdK4II8fOKHJYcbFkHHFn9utd9JUxay7jXAFBjkJSBM9uUgO4vAo2fDyYjV0yX5P1gGu3LTbV3pNUhYEhbUWbSjMiSZP3Pa+cTTzJY9ne53h9uP5yqXua7nq/a9bUoYmkq2fnvc3jtloA9Pua6csWC2HB3UAH7ZMJNQiWN0r0t2LBE1ecP99RS0drLquLgLt3MK8MTihGmRziL7szEFIRotcY4dBVyQV7PJ9/gpvCb7KmcvnCAsGQiIYqYtWwX3WHL3JO0RusrepafaJWE/wDQZ5MENGF88rwW+jOFJzBKEarUb+EbjAg1RTL3SrwHM/eMyzn/TSlzqZARZV5Slnew3cJU/SuXUK39i2cVGjWPRTvoZmQc9KD7/2H+FS/ynsAv1uI9DTF+/Kiyk5VYnd3hSvWUWQKRWByYtrVnb1pyiVRbKcegJKd99v7Idb/c7vVid3w3Mpz7NTPYGqrHnCoIi/H0cZvlm7vcHKffPgpj9KRs/EfLLS20= chanukyasds@ThinkpadX1"
+    ]
+
+}
+
+variable "username" {
+    type = string
+    default = "chanukyasds"
+}
